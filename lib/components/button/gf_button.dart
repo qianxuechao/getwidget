@@ -206,7 +206,7 @@ class GFButton extends StatefulWidget {
   /// See also:
   ///
   ///  * [Feedback] for providing platform-specific feedback to certain actions.
-  final bool enableFeedback = true;
+  final bool enableFeedback;
 
   /// Called when the button is long-pressed.
   ///
