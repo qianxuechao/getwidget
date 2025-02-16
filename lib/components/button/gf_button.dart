@@ -42,7 +42,7 @@ class GFButton extends StatefulWidget {
     this.blockButton,
     this.fullWidthButton,
     this.colorScheme,
-    this.enableFeedback,
+    this.enableFeedback = true,
     this.onLongPress,
     this.disabledColor,
     this.disabledTextColor,
@@ -206,7 +206,7 @@ class GFButton extends StatefulWidget {
   /// See also:
   ///
   ///  * [Feedback] for providing platform-specific feedback to certain actions.
-  final bool? enableFeedback;
+  final bool enableFeedback = true;
 
   /// Called when the button is long-pressed.
   ///
